@@ -1,0 +1,72 @@
+* {
+ box-sizing: border-box;
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Form {
+  display: flex;
+  align-items: flex-end;
+}
+
+.Dist-field {
+  margin: 0 20px;
+}
+
+.Header {
+  font-weight: 500;
+}
+
+.Date-input, .Dist-input, .Submit-button {
+  border-radius: 6px;
+  height: 50px;
+}
+
+.Submit-button {
+  width: 85px;
+  background-color: transparent;
+  font-weight: bold;
+}
+
+.Tracker {
+  width: 479px;
+}
+
+.Track-headers {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+
+.Tracklist {
+  width: 100%;
+  border: 2px solid black;
+  border-radius: 6px;
+  padding: 20px 30px;
+}
+
+.Track-entry {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Track-entry:nth-child(n+2) {
+  margin-top: 10px;
+}
+
+.Entry-text {
+  margin: 0;
+}
+
+.Remove-button {
+  background-color: transparent;
+  border: none;
+}
